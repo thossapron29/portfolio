@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.introduce .my-name {
+  letter-spacing: 1px;
+}
+
+.introduce .position {
+  letter-spacing: 1px;
+}
+
+.content-scroll {
+  height: 100vh;
+  overflow-y: scroll;
+  word-break: keep-all;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 8px;
+}
+
+.experience .name {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tag {
+  cursor: default;
+  width: 100%;
+  max-width: 100% !important;
+  text-align: center;
+}
+
+.timeline-line {
+  background-color: white;
+  height: 90%;
+  margin-top: auto;
+}
+
+.tag-skill {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
